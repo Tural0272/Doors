@@ -1,0 +1,33 @@
+.aboutHome {
+  margin: 30px 0;
+}
+
+.about__gridContainer {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+.about__gridItem {
+  align-self: center;
+  text-align: center;
+  line-height: 1.5;
+}
+
+.about__gridImage {
+  order: 2;
+}
+
+.about__gridText {
+  order: 1;
+  padding: 3px 0;
+}
+
+@media screen and (max-width: 959px) {
+  .about__gridImage {
+    order: 1;
+  }
+  .about__gridText {
+    order: 2;
+  }
+}

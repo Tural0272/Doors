@@ -1,0 +1,30 @@
+.nav__phoneIcon {
+  display: none;
+}
+
+.nav__insta {
+  display: none;
+}
+
+.nav__selectLang {
+  width: 100%;
+}
+
+@media screen and (max-width: 600px) {
+  .nav__zemanet {
+    display: none;
+  }
+
+  .nav__insta {
+    display: block;
+  }
+
+  .nav__phoneNum {
+    display: none;
+  }
+
+  .nav__phoneIcon {
+    display: block;
+    margin-top: 10px;
+  }
+}

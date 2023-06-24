@@ -1,0 +1,13 @@
+.list__modalForm {
+  width: 50vw;
+}
+
+.list__modalForm > label {
+  border-bottom: 2px solid lightgray;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.list__modalInput {
+  width: 100%;
+}

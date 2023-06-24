@@ -1,0 +1,11 @@
+.chat__inputs {
+  position: fixed;
+  bottom: 0;
+  width: calc(100% - 200px);
+}
+
+@media (max-width: 900px) {
+  .chat__inputs {
+    width: 100%;
+  }
+}

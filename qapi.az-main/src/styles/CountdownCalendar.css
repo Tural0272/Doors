@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Atma:wght@500&display=swap");
+
+.countdownCalendar__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.countdownCalendar__text {
+  text-align: center;
+  margin-top: 50px;
+  color: black;
+  font-family: "Atma", sans-serif;
+}

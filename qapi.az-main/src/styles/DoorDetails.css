@@ -1,0 +1,8 @@
+.details__similarDoors {
+  transition: opacity 350ms ease-in, transform 350ms ease-in;
+  /* cursor: pointer; */
+}
+
+.details__similarDoors:hover {
+  opacity: 0.7;
+}

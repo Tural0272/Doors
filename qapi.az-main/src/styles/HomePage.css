@@ -1,0 +1,15 @@
+.home__parallaxOne {
+  background: url("../images/parallax1.jpeg") no-repeat center;
+}
+
+.home__parallaxTwo {
+  background: url("../images/parallax2.jpeg") no-repeat center;
+}
+
+.home__parallax {
+  background-size: cover;
+  background-attachment: fixed;
+  /* height: 700px; */
+  width: 100vw;
+  color: white;
+}

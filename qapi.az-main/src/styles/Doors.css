@@ -1,0 +1,59 @@
+.card__img {
+  height: 60vh;
+  display: block;
+  margin: 0 auto;
+}
+
+.doors__gridItem {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.doors__gridCard {
+  margin-bottom: 20px;
+}
+
+.doors__slides {
+  width: 95%;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 600px) {
+  .card__img {
+    height: 40vh;
+  }
+}
+
+.news__pagination {
+  display: flex;
+  list-style: none;
+  cursor: pointer;
+  justify-content: center;
+  /* align-items: center; */
+  flex-wrap: wrap;
+  line-height: 3;
+  font-size: 24px;
+}
+
+.news__pagination a {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #6c7ac9;
+  color: #6c7ac9;
+}
+
+.news__paginationLink {
+  font-weight: bold;
+}
+
+.news__paginationActive a {
+  color: #fff;
+  background: #6c7ac9;
+}
+
+.news__paginationDisabled a {
+  color: rgb(198, 197, 202);
+  border: 1px solid rgb(198, 197, 202);
+}

@@ -1,0 +1,30 @@
+.contact__textField {
+  background-color: white;
+  width: 400px;
+  padding: 15px;
+  font-size: 15px;
+}
+
+.contact__submit {
+  padding: 15px;
+  background-color: #e7333b;
+  color: white;
+  transition: background-color 200ms ease-in;
+  width: 400px;
+  margin-left: 25px;
+  margin-top: 25px;
+}
+
+.contact__submit:hover {
+  background-color: red;
+}
+
+@media (max-width: 600px) {
+  .contact__textField {
+    width: 250px;
+  }
+
+  .contact__submit {
+    width: 250px;
+  }
+}
